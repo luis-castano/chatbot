@@ -12,7 +12,7 @@ const openai = new OpenAIApi(configuration);
 
 const appSettings = {
   databaseURL:
-    "https://knowitall-openai-default-rtdb.europe-west1.firebasedatabase.app/",
+    "YOUR DATABASE URL",
 };
 
 const app = initializeApp(appSettings);
